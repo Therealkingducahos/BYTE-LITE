@@ -45,7 +45,7 @@ module.exports = { session: process.env.SESSION_ID || 'Byte;;;',
     DATABASE_URL,
     DATABASE: DATABASE_URL === databasePath
         ? "postgres://db_7xp9_user:6hwmTN7rGPNsjlBEHyX49CXwrG7cDeYi@dpg-cj7ldu5jeehc73b2p7g0-a.oregon-postgres.render.com/db_7xp9" : "postgres://db_7xp9_user:6hwmTN7rGPNsjlBEHyX49CXwrG7cDeYi@dpg-cj7ldu5jeehc73b2p7g0-a.oregon-postgres.render.com/db_7xp9",
-   
+   session id 'Byte;;; eyJub2lzZUtleSl6e yJwcml2YXRlIjp7InR5cGU iOiJCdWZmZXIiLCJkYXR hljoiNERWOVJ3dmUvTH dyRkdJSnRRYkdPNUtmY...
 };
 let fichier = require.resolve(__filename);
 fs.watchFile(fichier, () => {
